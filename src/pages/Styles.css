@@ -16,20 +16,12 @@
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
-  background: -webkit-linear-gradient(
-      rgba(50, 50, 50, 1),
-      rgba(50, 50, 50, 0.6)
-    ),
-    url("/StarterPage/placeholder.jpg");
+  background: url("./assets/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: inherit;
-  height: 20em;
+  height: 25em;
+  margin-bottom: 1.5em;
 }
 
 .hero-starter {
@@ -53,11 +45,11 @@
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
-  background-image: url("/assets/main.jpg");
+  background-image: url("./assets/main.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20em;
+  height: 25em;
 }
 
 .hero-dessert {
@@ -68,16 +60,11 @@
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
-  background: url("/StarterPage/placeholder.jpg");
+  background: url("./assets/dessert.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: inherit;
-  height: 20em;
+  height: 25em;
 }
 
 .hero-pies {
@@ -88,28 +75,64 @@
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
-  background: -webkit-linear-gradient(
-      rgba(50, 50, 50, 1),
-      rgba(50, 50, 50, 0.6)
-    ),
-    url("./StarterPage/placeholder.jpg");
+  background: url("./assets/pie.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: inherit;
-  height: 20em;
+  height: 25em;
 }
 
 .h1 {
   color: #ffffff;
   text-align: left;
   background-color: #000000;
-  opacity: 60%;
+  opacity: 70%;
   padding: 0.2em;
+}
+
+.h2 {
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  opacity: 70%;
+  font-size: 1.5em;
+  padding: 0.1em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container-1 {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  margin: 1em 0.5em 0.5 0;
+  background-image: url("./assets/starter-home.jpg");
+  height: 14em;
+}
+
+.container-2 {
+  grid-column: 3 / 4;
+  grid-row: 2;
+  margin: 0 0 1em 0.5em;
+  background-image: url("./assets/main-home.jpg");
+  height: 14em;
+}
+
+.container-3 {
+  grid-column: 2 / 3;
+  grid-row: 3;
+  margin: 1em 0.5em 0.5 0;
+  background-image: url("./assets/dessert-home.jpg");
+  height: 14em;
+}
+
+.container-4 {
+  grid-column: 3 / 4;
+  grid-row: 3;
+  margin: 0 0 1em 0.5em;
+  background-image: url("./assets/pie-home.jpg");
+  height: 14em;
 }
 
 .ingredients {
@@ -237,10 +260,72 @@ button:active {
     grid-template-rows: auto auto auto;
   }
   */
-  .hero {
+  .hero-home,
+  .hero-starter,
+  .hero-main,
+  .hero-dessert,
+  .hero-pies {
     grid-column: 2 / 4;
     grid-row: 1;
   }
+
+  .h1 {
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    font-size: 1.3em;
+    opacity: 70%;
+    padding: 0.2em;
+    /*position: absolute;
+    top: 100%;
+    left: 10%;*/
+  }
+
+  .h2 {
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    opacity: 70%;
+    font-size: 1em;
+    padding: 0.1em;
+  }
+
+  .container-1 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-image: url("./assets/starter-home.jpg");
+    height: 14em;
+  }
+
+  .container-2 {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-image: url("./assets/main-home.jpg");
+    height: 14em;
+  }
+
+  .container-3 {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-image: url("./assets/dessert-home.jpg");
+    height: 14em;
+  }
+
+  .container-4 {
+    grid-column: 2 / 4;
+    grid-row: 5;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    background-image: url("./assets/pie-home.jpg");
+    height: 14em;
+  }
+
   .ingredients {
     grid-column: 2 / 4;
     grid-row: 2;

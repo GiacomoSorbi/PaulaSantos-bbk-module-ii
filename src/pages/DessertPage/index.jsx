@@ -4,7 +4,7 @@ import "../Styles.css";
 const DessertPage = () => (
   <div className="container">
     <div className="hero-dessert">
-      <h1 className="h1">I'm the dessert!!!</h1>
+      <h1 className="h1">Walnut and chocolate cake</h1>
     </div>
     <div className="ingredients">
       <h2>Ingredients</h2>

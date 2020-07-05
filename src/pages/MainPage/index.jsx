@@ -4,7 +4,7 @@ import "../Styles.css";
 const MainPage = () => (
   <div className="container">
     <div className="hero-main">
-      <h1 className="h1">I'm the main course!!!</h1>
+      <h1 className="h1">Meatballs in tomato sauce</h1>
     </div>
     <div className="ingredients">
       <h2>Ingredients</h2>
