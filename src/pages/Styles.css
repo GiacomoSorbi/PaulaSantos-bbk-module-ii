@@ -4,14 +4,14 @@
   display: grid;
   grid-template-columns: 10% 40% 40% 10%;
   grid-template-rows: auto auto auto auto auto;
-  font-family: "MuseoModerno", cursive;
+  font-family: "MuseoModerno", cursive, Sans-Serif;
   text-align: left;
 }
 
 .hero-home {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
   background: #323232;
   color: #ffffff;
   padding: 1em;
@@ -27,7 +27,7 @@
 .hero-starter {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
@@ -41,7 +41,7 @@
 .hero-main {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   padding: 1em;
   margin-top: 1em;
@@ -55,7 +55,7 @@
 .hero-dessert {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
   background: #323232;
   color: #ffffff;
   padding: 1em;
@@ -70,7 +70,7 @@
 .hero-pies {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
   background: #323232;
   color: #ffffff;
   padding: 1em;
@@ -249,6 +249,17 @@ button a:hover {
 button:active {
   text-decoration: underline;
   background: #000;
+}
+
+.content {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+.content .title {
+  text-align: center;
 }
 
 /* Responsive */

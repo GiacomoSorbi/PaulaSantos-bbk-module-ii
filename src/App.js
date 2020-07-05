@@ -9,6 +9,7 @@ import {
   DessertPage,
   PiesPage,
   ContactPage,
+  VisualPage,
 } from "./pages";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="/dessert" component={DessertPage} />
       <Route path="/pies" component={PiesPage} />
       <Route path="/contact" component={ContactPage} />
+      <Route path="/visual" component={VisualPage} />
     </Switch>
 
     /*
