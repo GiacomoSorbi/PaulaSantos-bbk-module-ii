@@ -29,12 +29,12 @@
   margin: 2em 0 0 0;
 }
 
-.hero-starter img {
+.image img {
   text-align: left;
   color: #ffffff;
   max-width: 100%;
   height: auto;
-  margin: 0 0 0 0;
+  margin: 0;
 
   /*background-image: url("./assets/starter.jpg");
   background-position: center;
@@ -93,9 +93,9 @@
   color: #ffffff;
   text-align: left;
   background-color: #000000;
-  /*opacity: 70%;*/
-  padding: 0.4em;
-  margin: -8px 0 0 0;
+  opacity: 70%;
+  padding: 1em;
+  margin: -5em -1em 0 1em;
 }
 
 .hero-home h1,
@@ -220,7 +220,7 @@
 label {
   text-align: left;
   border-radius: 0.625em;
-  font-size: 1.13rem;
+  font-size: 1.5em;
   line-height: 1.8;
 }
 
@@ -229,7 +229,7 @@ input {
   background: #fff;
   text-align: left;
   border-radius: 0.625em;
-  font-size: 1.13rem;
+  font-size: 1.3em;
   line-height: 1.8;
   margin: 0.5% 0.5% 0.5% 1%;
 }
@@ -241,7 +241,7 @@ textarea {
   text-align: left;
   border-radius: 0.625em;
   padding: 1%;
-  font-size: 1.13rem;
+  font-size: 1.3em;
   line-height: 1.8;
   margin: 0.5% 0.5% 0.5% 1%;
 }
@@ -254,7 +254,7 @@ button {
   text-align: center;
   border-radius: 0.625em;
   padding: 1%;
-  font-size: 1.13rem;
+  font-size: 1.5em;
   line-height: 1.8;
   margin: 1.5% 1.5% 1.5% 1%;
   cursor: pointer;
@@ -305,15 +305,15 @@ button:active {
   }
 
   .h1 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
     color: #ffffff;
+    font-size: 2.5vw;
     text-align: left;
     background-color: #000000;
-    font-size: 1.3em;
     opacity: 70%;
-    padding: 0.2em;
-    /*position: absolute;
-    top: 100%;
-    left: 10%;*/
+    padding: 1em;
+    margin: -5em -1em 0 1em;
   }
 
   .h2 {
@@ -363,12 +363,12 @@ button:active {
 
   .ingredients {
     grid-column: 2 / 4;
-    grid-row: 2;
+    grid-row: 3;
     margin: 1em 0 1em 0;
   }
 
   .ingredients h2 {
-    margin: 1em 0 0 0;
+    margin: 0.5em 0 0 0;
   }
 
   .ingredients-list {
@@ -376,7 +376,7 @@ button:active {
   }
   .method {
     grid-column: 2 / 4;
-    grid-row: 3;
+    grid-row: 4;
     margin: 1em 0 1em 0;
   }
 
