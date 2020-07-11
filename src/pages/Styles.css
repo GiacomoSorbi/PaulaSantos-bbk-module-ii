@@ -26,10 +26,10 @@
 .hero-starter {
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
-  margin: 2em 0 0 0;
+  margin: 2em 0 1em 0;
 }
 
-.image img {
+.hero-starter img {
   text-align: left;
   color: #ffffff;
   max-width: 100%;
@@ -41,6 +41,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;*/
+}
+
+.hero-starter h1 {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  opacity: 70%;
+  padding: 1em;
+  margin: -5em -1em 0 1em;
 }
 
 .hero-main {
@@ -85,17 +96,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
-}
-
-.h1 {
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 1;
-  color: #ffffff;
-  text-align: left;
-  background-color: #000000;
-  opacity: 70%;
-  padding: 1em;
-  margin: -5em -1em 0 1em;
 }
 
 .hero-home h1,
@@ -162,7 +162,7 @@
 .ingredients {
   grid-column: 2 / 3;
   grid-row: 3;
-  margin: 0 0.5em 1em 0;
+  margin: 2em 0.5em 1em 0;
 }
 
 .ingredients h2 {
@@ -182,7 +182,7 @@
 .method {
   grid-column: 3 / 4;
   grid-row: 3;
-  margin: 0 0 1em 0.5em;
+  margin: 2em 0 1em 0.5em;
 }
 
 .method h2 {
@@ -304,11 +304,11 @@ button:active {
     grid-row: 1;
   }
 
-  .h1 {
+  .hero-starter h1 {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
     color: #ffffff;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: left;
     background-color: #000000;
     opacity: 70%;
