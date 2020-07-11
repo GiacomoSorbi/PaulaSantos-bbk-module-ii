@@ -43,7 +43,6 @@
 .hero-dessert {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: left;
   background: url("./assets/dessert.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +54,6 @@
 .hero-pies {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: left;
   background: url("./assets/pie.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -64,11 +62,7 @@
   margin: 2em 0 0 0;
 }
 
-.hero-home h1,
-.hero-starter h1,
-.hero-main h1,
-.hero-dessert h1,
-.hero-pies h1 {
+.hero-home .hero-starter .hero-main .hero-dessert .hero-pies h1 {
   color: #ffffff;
   background-color: #000000;
   opacity: 70%;
@@ -76,12 +70,11 @@
   padding: 0.5em;
 }
 
-.hero-home a,
-.hero-starter a,
-.hero-main a,
-.hero-dessert a,
-.hero-pies a {
+.hero-home .hero-starter .hero-main .hero-dessert .hero-pies a {
   text-decoration: none;
+}
+
+.hero-home .hero-starter .hero-main .hero-dessert .hero-pies h2 {
   font-size: 1.5em;
   text-align: left;
   color: #ffffff;
@@ -259,20 +252,16 @@ button:active {
     grid-template-rows: auto auto auto;
   }
   */
-  .hero-home,
-  .hero-starter,
-  .hero-main,
-  .hero-dessert,
-  .hero-pies {
+  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies {
     grid-column: 2 / 4;
     grid-row: 1;
   }
 
-  .h1 {
+  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies h1 {
     font-size: 2vw;
   }
 
-  .h2 {
+  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies h2 {
     color: #ffffff;
     text-align: left;
     background-color: #000000;
