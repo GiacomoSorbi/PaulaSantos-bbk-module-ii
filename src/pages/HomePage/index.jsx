@@ -18,13 +18,12 @@ const HomePage = () => (
     <div className="container-2">
       <h2>
         <a className="link" href="/main">
-          Meatballs in tomato sauce{" "}
+          Meatballs in tomato sauce
         </a>
       </h2>
     </div>
     <div className="container-3">
       <h2>
-        {" "}
         <a className="link" href="/dessert">
           Walnut and chocolate cake
         </a>

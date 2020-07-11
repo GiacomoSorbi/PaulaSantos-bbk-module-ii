@@ -10,104 +10,89 @@
 .hero-home {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: left;
-  background: #323232;
-  color: #ffffff;
-  padding: 1em;
-  margin-top: 1em;
   background: url("./assets/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
-  margin-bottom: 1.5em;
+  margin: 2em 0 2em 0;
 }
 
 .hero-starter {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: left;
-  color: #ffffff;
-  padding: 1em;
-  margin-top: 1em;
   background-image: url("./assets/starter.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+  margin: 2em 0 0 0;
 }
 
 .hero-main {
   grid-column: 2 / span 2;
   grid-row: 1;
-  text-align: left;
-  color: #ffffff;
-  padding: 1em;
-  margin-top: 1em;
   background-image: url("./assets/main.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+  margin: 2em 0 0 0;
 }
 
 .hero-dessert {
   grid-column: 2 / span 2;
   grid-row: 1;
   text-align: left;
-  background: #323232;
-  color: #ffffff;
-  padding: 1em;
-  margin-top: 1em;
   background: url("./assets/dessert.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+  margin: 2em 0 0 0;
 }
 
 .hero-pies {
   grid-column: 2 / span 2;
   grid-row: 1;
   text-align: left;
-  background: #323232;
-  color: #ffffff;
-  padding: 1em;
-  margin-top: 1em;
   background: url("./assets/pie.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+  margin: 2em 0 0 0;
 }
 
-h1 {
-  /*grid-column: 2 / span 2;
-  grid-row: 2 / span 1;*/
+.hero-home h1,
+.hero-starter h1,
+.hero-main h1,
+.hero-dessert h1,
+.hero-pies h1 {
   color: #ffffff;
   background: #000000;
   opacity: 70%;
   text-align: left;
-  padding: 1em;
-  /*background-color: #000000;
-  opacity: 70%;
-  margin: -5em -1em 0 1em;*/
+  padding: 0.5em;
 }
 
-h2 {
+/*.hero-home h2,
+.hero-starter h2,
+.hero-main h2,
+.hero-dessert h2,
+.hero-pies h2 {
+  font-size: 1.5em;
+  /* background-color: #000000;
+  opacity: 70%;
+  padding: 0.1em;
+}*/
+
+.link {
   color: #ffffff;
   background: #000000;
   opacity: 70%;
   text-align: left;
   padding: 0.4em;
-  font-size: 1.5em;
-  /* background-color: #000000;
-  opacity: 70%;
-  padding: 0.1em;*/
-}
-
-.link {
-  color: #ffffff;
   text-decoration: none;
 }
 
