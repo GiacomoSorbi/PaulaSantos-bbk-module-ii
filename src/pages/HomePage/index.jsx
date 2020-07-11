@@ -4,7 +4,7 @@ import "../Styles.css";
 const HomePage = () => (
   <div className="container">
     <div className="hero-home">
-      <h1 className="h1">Home cooking for friends</h1>
+      <h1>Home cooking for friends</h1>
     </div>
 
     <div className="container-1">

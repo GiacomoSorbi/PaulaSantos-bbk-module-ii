@@ -15,7 +15,7 @@ import {
 function App() {
   return (
     <Switch>
-      <Route path="/" exact component={HomePage} />
+      <Route path="/home" exact component={HomePage} />
       <Route path="/starter" component={StarterPage} />
       <Route path="/main" component={MainPage} />
       <Route path="/dessert" component={DessertPage} />

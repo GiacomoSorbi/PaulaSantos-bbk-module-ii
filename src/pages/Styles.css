@@ -82,7 +82,11 @@
   height: 25em;
 }
 
-.h1 {
+.hero-home h1,
+.hero-starter h1,
+.hero-main h1,
+.hero-dessert h1,
+.hero-pies h1 {
   color: #ffffff;
   text-align: left;
   background-color: #000000;

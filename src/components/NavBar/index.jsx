@@ -6,7 +6,7 @@ const NavBar = () => (
   <nav>
     <ul>
       <li>
-        <NavLink to="/" exact>
+        <NavLink to="/home" exact>
           Home
         </NavLink>
       </li>
@@ -24,9 +24,6 @@ const NavBar = () => (
       </li>
       <li>
         <NavLink to="/contact">Contact</NavLink>
-      </li>
-      <li>
-        <NavLink to="/visual">Visual design</NavLink>
       </li>
     </ul>
   </nav>

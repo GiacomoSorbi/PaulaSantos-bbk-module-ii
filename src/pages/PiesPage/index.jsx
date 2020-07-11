@@ -4,7 +4,7 @@ import "../Styles.css";
 const PiesPage = () => (
   <div className="container">
     <div className="hero-pies">
-      <h1 className="h1">Tuna pie</h1>
+      <h1>Tuna pie</h1>
     </div>
     <div className="ingredients">
       <h2>Ingredients</h2>
