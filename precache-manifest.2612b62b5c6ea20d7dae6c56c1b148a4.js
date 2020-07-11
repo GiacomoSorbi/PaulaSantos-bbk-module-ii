@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "308ea1d7fe0822fed6ad91b046ba393d",
+    "revision": "1296d68506c6fab8dc83e241946d03e7",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
-    "revision": "996f745356bf4735e03f",
-    "url": "/PaulaSantos-bbk-module-ii/static/css/main.8c6927dd.chunk.css"
+    "revision": "d6983a0b821fce4cea68",
+    "url": "/PaulaSantos-bbk-module-ii/static/css/main.4e317217.chunk.css"
   },
   {
     "revision": "71d45507cde866d7bee7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/js/2.2e93f002.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "996f745356bf4735e03f",
+    "revision": "d6983a0b821fce4cea68",
     "url": "/PaulaSantos-bbk-module-ii/static/js/main.5aa019c4.chunk.js"
   },
   {
