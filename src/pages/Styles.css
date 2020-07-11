@@ -70,30 +70,25 @@
 .hero-dessert h1,
 .hero-pies h1 {
   color: #ffffff;
-  background: #000000;
+  background-color: #000000;
   opacity: 70%;
   text-align: left;
   padding: 0.5em;
 }
 
-/*.hero-home h2,
-.hero-starter h2,
-.hero-main h2,
-.hero-dessert h2,
-.hero-pies h2 {
+.hero-home a,
+.hero-starter a,
+.hero-main a,
+.hero-dessert a,
+.hero-pies a {
+  text-decoration: none;
   font-size: 1.5em;
-  /* background-color: #000000;
+  text-align: left;
+  color: #ffffff;
+  background-color: #000000;
   opacity: 70%;
   padding: 0.1em;
-}*/
-
-.link {
-  color: #ffffff;
-  background: #000000;
-  opacity: 70%;
-  text-align: left;
   padding: 0.4em;
-  text-decoration: none;
 }
 
 .container-1 {

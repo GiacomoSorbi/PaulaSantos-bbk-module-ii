@@ -8,33 +8,25 @@ const HomePage = () => (
     </div>
 
     <div className="container-1">
-      <h2>
-        <a className="link" href="/starter">
-          Olivier salad
-        </a>
-      </h2>
+      <a href="/starter">
+        <h2>Olivier salad</h2>
+      </a>
     </div>
 
     <div className="container-2">
-      <h2>
-        <a className="link" href="/main">
-          Meatballs in tomato sauce
-        </a>
-      </h2>
+      <a href="/main">
+        <h2>Meatballs in tomato sauce</h2>
+      </a>
     </div>
     <div className="container-3">
-      <h2>
-        <a className="link" href="/dessert">
-          Walnut and chocolate cake
-        </a>
-      </h2>
+      <a href="/dessert">
+        <h2>Walnut and chocolate cake</h2>
+      </a>
     </div>
     <div className="container-4">
-      <h2>
-        <a className="link" href="/pies">
-          Tuna pie
-        </a>
-      </h2>
+      <a href="/pies">
+        <h2>Tuna pie</h2>
+      </a>
     </div>
   </div>
 );
