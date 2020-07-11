@@ -4,9 +4,6 @@ import "../Styles.css";
 const StarterPage = () => (
   <div className="container">
     <div className="hero-starter">
-      <img src={require("../assets/starter.jpg")} alt={"Olivier salad"} />
-    </div>
-    <div className="h1">
       <h1>Olivier salad</h1>
     </div>
 
