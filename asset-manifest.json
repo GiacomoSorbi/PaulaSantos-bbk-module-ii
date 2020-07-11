@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PaulaSantos-bbk-module-ii/static/css/main.956c0019.chunk.css",
-    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.7e5598ac.chunk.js",
-    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.7e5598ac.chunk.js.map",
+    "main.css": "/PaulaSantos-bbk-module-ii/static/css/main.9f773bce.chunk.css",
+    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.f5f7dbef.chunk.js",
+    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.f5f7dbef.chunk.js.map",
     "runtime-main.js": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js",
     "runtime-main.js.map": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js.map",
     "static/js/2.9f359428.chunk.js": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js",
     "static/js/2.9f359428.chunk.js.map": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.map",
     "index.html": "/PaulaSantos-bbk-module-ii/index.html",
-    "precache-manifest.135bed223ce172b482539afaa0187b2d.js": "/PaulaSantos-bbk-module-ii/precache-manifest.135bed223ce172b482539afaa0187b2d.js",
+    "precache-manifest.5cc79d85df481c975c7ab5659e0f5609.js": "/PaulaSantos-bbk-module-ii/precache-manifest.5cc79d85df481c975c7ab5659e0f5609.js",
     "service-worker.js": "/PaulaSantos-bbk-module-ii/service-worker.js",
-    "static/css/main.956c0019.chunk.css.map": "/PaulaSantos-bbk-module-ii/static/css/main.956c0019.chunk.css.map",
+    "static/css/main.9f773bce.chunk.css.map": "/PaulaSantos-bbk-module-ii/static/css/main.9f773bce.chunk.css.map",
     "static/js/2.9f359428.chunk.js.LICENSE.txt": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.LICENSE.txt",
     "static/media/Styles.css": "/PaulaSantos-bbk-module-ii/static/media/starter.21fc9d9a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.137bf9fb.js",
     "static/js/2.9f359428.chunk.js",
-    "static/css/main.956c0019.chunk.css",
-    "static/js/main.7e5598ac.chunk.js"
+    "static/css/main.9f773bce.chunk.css",
+    "static/js/main.f5f7dbef.chunk.js"
   ]
 }
