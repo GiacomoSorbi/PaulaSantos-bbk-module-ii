@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PaulaSantos-bbk-module-ii/precache-manifest.60b9f9bfbe2f3e6e68b75cbcac25b13a.js"
+  "/PaulaSantos-bbk-module-ii/precache-manifest.b848e2579c3954a14717574d96b749c6.js"
 );
 
 self.addEventListener('message', (event) => {
