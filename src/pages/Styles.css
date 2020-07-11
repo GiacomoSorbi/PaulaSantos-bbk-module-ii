@@ -43,17 +43,6 @@
   height: 25em;*/
 }
 
-.h1 {
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 1;
-  color: #ffffff;
-  text-align: left;
-  background-color: #000000;
-  opacity: 70%;
-  padding: 1em;
-  margin: -5em -1em 0 1em;
-}
-
 .hero-main {
   grid-column: 2 / span 2;
   grid-row: 1;
@@ -99,23 +88,24 @@
 }
 
 .h1 {
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 1;
-  color: #ffffff;
+  /*grid-column: 2 / span 2;
+  grid-row: 2 / span 1;*/
+  color: #000000;
   text-align: left;
-  background-color: #000000;
-  opacity: 70%;
   padding: 1em;
-  margin: -5em -1em 0 1em;
+  /*background-color: #000000;
+  opacity: 70%;
+  margin: -5em -1em 0 1em;*/
 }
 
 .h2 {
-  color: #ffffff;
+  color: #000000;
   text-align: left;
-  background-color: #000000;
-  opacity: 70%;
-  font-size: 1.5em;
   padding: 0.1em;
+  font-size: 1.5em;
+  /* background-color: #000000;
+  opacity: 70%;
+  padding: 0.1em;*/
 }
 
 .link {
