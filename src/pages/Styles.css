@@ -68,9 +68,9 @@
 .hero-dessert h1,
 .hero-pies h1 {
   color: #ffffff;
-  background-color: #000000;
-  opacity: 70%;
-  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*opacity: 70%;
+  text-align: left;*/
   padding: 0.5em;
 }
 
@@ -81,8 +81,8 @@
   font-size: 1.5em;
   text-align: left;
   color: #fff;
-  background-color: #000000;
-  opacity: 70%;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*opacity: 70%;*/
   padding: 0.4em;
 }
 
