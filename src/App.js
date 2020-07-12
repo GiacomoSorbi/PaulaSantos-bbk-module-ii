@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/starter" component={StarterPage} />
