@@ -62,7 +62,11 @@
   margin: 2em 0 0 0;
 }
 
-.hero-home .hero-starter .hero-main .hero-dessert .hero-pies h1 {
+.hero-home h1,
+.hero-starter h1,
+.hero-main h1,
+.hero-dessert h1,
+.hero-pies h1 {
   color: #ffffff;
   background-color: #000000;
   opacity: 70%;
@@ -70,18 +74,25 @@
   padding: 0.5em;
 }
 
-.hero-home .hero-starter .hero-main .hero-dessert .hero-pies a {
-  text-decoration: none;
-}
-
-.hero-home .hero-starter .hero-main .hero-dessert .hero-pies h2 {
+.container-1 h2,
+.container-2 h2,
+.container-3 h2,
+.container-4 h2 {
   font-size: 1.5em;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   background-color: #000000;
   opacity: 70%;
   padding: 0.1em;
   padding: 0.4em;
+}
+
+.container-1 h2 > a,
+.container-2 h2 > a,
+.container-3 h2 > a,
+.container-4 h2 > a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .container-1 {
@@ -273,37 +284,25 @@ button:active {
   .container-1 {
     grid-column: 2 / 4;
     grid-row: 2;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    background-image: url("./assets/starter-home.jpg");
-    height: 14em;
   }
 
   .container-2 {
     grid-column: 2 / 4;
     grid-row: 3;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    background-image: url("./assets/main-home.jpg");
-    height: 14em;
+    margin-top: 2em;
   }
 
   .container-3 {
     grid-column: 2 / 4;
     grid-row: 4;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    background-image: url("./assets/dessert-home.jpg");
-    height: 14em;
+    margin-top: 1em;
   }
 
   .container-4 {
     grid-column: 2 / 4;
     grid-row: 5;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    background-image: url("./assets/pie-home.jpg");
-    height: 14em;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
   .ingredients {
