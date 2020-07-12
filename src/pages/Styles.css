@@ -83,7 +83,6 @@
   color: #fff;
   background-color: #000000;
   opacity: 70%;
-  padding: 0.1em;
   padding: 0.4em;
 }
 
@@ -263,16 +262,27 @@ button:active {
     grid-template-rows: auto auto auto;
   }
   */
-  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies {
+  .hero-home h1,
+  .hero-starter h1,
+  .hero-main h1,
+  .hero-dessert h1,
+  .hero-pies h1 {
     grid-column: 2 / 4;
     grid-row: 1;
   }
 
-  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies h1 {
+  /* .hero-home h1,
+  .hero-starter h1,
+  .hero-main h1,
+  .hero-dessert h1,
+  .hero-pies h1 {
     font-size: 2vw;
-  }
+  }*/
 
-  .hero-home .hero-starter .hero-main .hero-dessert .hero-pies h2 {
+  .container-1 h2,
+  .container-2 h2,
+  .container-3 h2,
+  .container-4 h2 {
     color: #ffffff;
     text-align: left;
     background-color: #000000;
