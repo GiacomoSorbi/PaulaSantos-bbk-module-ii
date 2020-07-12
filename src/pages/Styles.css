@@ -79,10 +79,11 @@
 .container-3 h2,
 .container-4 h2 {
   font-size: 1.5em;
-  text-align: left;
+
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
-  /*opacity: 70%;*/
+  /*opacity: 70%;
+  text-align: left;*/
   padding: 0.4em;
 }
 
@@ -262,14 +263,14 @@ button:active {
     grid-template-rows: auto auto auto;
   }
   */
-  .hero-home h1,
+  /*.hero-home h1,
   .hero-starter h1,
   .hero-main h1,
   .hero-dessert h1,
   .hero-pies h1 {
     grid-column: 2 / 4;
     grid-row: 1;
-  }
+  }*/
 
   /* .hero-home h1,
   .hero-starter h1,
@@ -279,7 +280,7 @@ button:active {
     font-size: 2vw;
   }*/
 
-  .container-1 h2,
+  /*.container-1 h2,
   .container-2 h2,
   .container-3 h2,
   .container-4 h2 {
@@ -289,7 +290,7 @@ button:active {
     opacity: 70%;
     font-size: 1em;
     padding: 0.1em;
-  }
+  }*/
 
   .container-1 {
     grid-column: 2 / 4;
