@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PaulaSantos-bbk-module-ii/static/css/main.c700f4e4.chunk.css",
-    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.8f3ca60b.chunk.js",
-    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.8f3ca60b.chunk.js.map",
+    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.b4edc18b.chunk.js",
+    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.b4edc18b.chunk.js.map",
     "runtime-main.js": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js",
     "runtime-main.js.map": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js.map",
     "static/js/2.9f359428.chunk.js": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js",
     "static/js/2.9f359428.chunk.js.map": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.map",
     "index.html": "/PaulaSantos-bbk-module-ii/index.html",
-    "precache-manifest.99116447741c0cd8f90166e024019b98.js": "/PaulaSantos-bbk-module-ii/precache-manifest.99116447741c0cd8f90166e024019b98.js",
+    "precache-manifest.c3c5edb3fe016d6846ebd9191bc56759.js": "/PaulaSantos-bbk-module-ii/precache-manifest.c3c5edb3fe016d6846ebd9191bc56759.js",
     "service-worker.js": "/PaulaSantos-bbk-module-ii/service-worker.js",
     "static/css/main.c700f4e4.chunk.css.map": "/PaulaSantos-bbk-module-ii/static/css/main.c700f4e4.chunk.css.map",
     "static/js/2.9f359428.chunk.js.LICENSE.txt": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.137bf9fb.js",
     "static/js/2.9f359428.chunk.js",
     "static/css/main.c700f4e4.chunk.css",
-    "static/js/main.8f3ca60b.chunk.js"
+    "static/js/main.b4edc18b.chunk.js"
   ]
 }
