@@ -6,24 +6,24 @@ const NavBar = () => (
   <nav>
     <ul>
       <li>
-        <NavLink to="/" exact>
+        <NavLink to={`process.env.PUBLIC_URL/`} exact>
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink to="/starter">Starter</NavLink>
+        <NavLink to={`process.env.PUBLIC_URL/starter`}>Starter</NavLink>
       </li>
       <li>
-        <NavLink to="/main">Main course</NavLink>
+        <NavLink to={`process.env.PUBLIC_URL/main`}>Main course</NavLink>
       </li>
       <li>
-        <NavLink to="/dessert">Dessert</NavLink>
+        <NavLink to={`process.env.PUBLIC_URL/dessert`}>Dessert</NavLink>
       </li>
       <li>
-        <NavLink to="/pies">Pies</NavLink>
+        <NavLink to={`process.env.PUBLIC_URL/pies`}>Pies</NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to={`process.env.PUBLIC_URL/contact`}>Contact</NavLink>
       </li>
     </ul>
   </nav>
