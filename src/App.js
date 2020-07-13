@@ -1,7 +1,7 @@
 import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import {
   HomePage,
   StarterPage,
@@ -15,38 +15,38 @@ import {
 function App() {
   return (
     <Switch>
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/"
         exact
         component={HomePage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/starter"
         component={StarterPage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/main"
         component={MainPage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/dessert"
         component={DessertPage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/pies"
         component={PiesPage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/contact"
         component={ContactPage}
       />
-      <Route
+      <Router
         basename={process.env.PUBLIC_URL}
         path="/visual"
         component={VisualPage}
