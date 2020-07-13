@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19b5464cd6c7ff219accf503d4c1f917",
+    "revision": "4658375b44ce0148bbfcfe5f5e98f89b",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
-    "revision": "a77e7e545b5dd469e87e",
+    "revision": "f32504da5235aeeb85d5",
     "url": "/PaulaSantos-bbk-module-ii/static/css/main.c700f4e4.chunk.css"
   },
   {
-    "revision": "2a80eafdee5c8ff18058",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js"
+    "revision": "04f775b3c7acc5d092c2",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/2.a3b2f45d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.LICENSE.txt"
+    "url": "/PaulaSantos-bbk-module-ii/static/js/2.a3b2f45d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a77e7e545b5dd469e87e",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/main.6905d15e.chunk.js"
+    "revision": "f32504da5235aeeb85d5",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/main.54b87cc4.chunk.js"
   },
   {
     "revision": "28aa5b03c279c8a3722f",
