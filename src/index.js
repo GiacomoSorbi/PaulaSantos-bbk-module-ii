@@ -3,16 +3,18 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components";
 
 ReactDOM.render(
-  <Router>
-    <React.StrictMode>
-      <NavBar />
-      <App />
-    </React.StrictMode>
-  </Router>,
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router>
+      <React.StrictMode>
+        <NavBar />
+        <App />
+      </React.StrictMode>
+    </Router>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

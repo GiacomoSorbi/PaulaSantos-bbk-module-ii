@@ -56,7 +56,7 @@ const VisualPage = () => (
       <h3>Edited version</h3>
       <img src={require("../assets/pie.jpg")} alt="Tuna pie" />
       <p>[description]</p>
-      <h2>Image 6 - Kitchen vector illustration</h2>
+      <h2>Image 6 - Kitchen vector illustration (used as site's favicon)</h2>
       <h3>Original</h3>
       <img
         src={require("../assets/kitchen-vector-original.jpg")}
