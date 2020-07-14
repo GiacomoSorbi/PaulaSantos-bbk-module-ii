@@ -3,17 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components";
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Router>
-      <React.StrictMode>
-        <NavBar />
-        <App />
-      </React.StrictMode>
-    </Router>
+    <React.StrictMode>
+      <NavBar />
+      <App />
+    </React.StrictMode>
   </BrowserRouter>,
   document.getElementById("root")
 );
