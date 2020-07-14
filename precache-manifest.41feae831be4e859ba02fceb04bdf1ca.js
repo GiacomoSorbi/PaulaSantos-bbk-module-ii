@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00f5bdec6ca00e759624948f8b8f0ad0",
+    "revision": "df4589de685c80bb6c755188111af202",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
