@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19af9b0b23d15c1b1d100528a6822c6c",
+    "revision": "00f5bdec6ca00e759624948f8b8f0ad0",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
-    "revision": "57b467a3cbc64c4e7836",
+    "revision": "204298133a1f539e6f12",
     "url": "/PaulaSantos-bbk-module-ii/static/css/main.c700f4e4.chunk.css"
   },
   {
-    "revision": "2a80eafdee5c8ff18058",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js"
+    "revision": "164dbb7cc72c44ffdb6d",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/2.36ca84d6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/2.9f359428.chunk.js.LICENSE.txt"
+    "url": "/PaulaSantos-bbk-module-ii/static/js/2.36ca84d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57b467a3cbc64c4e7836",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/main.8f3ca60b.chunk.js"
+    "revision": "204298133a1f539e6f12",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/main.b2084b71.chunk.js"
   },
   {
     "revision": "28aa5b03c279c8a3722f",
@@ -28,16 +28,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/media/dessert-home.e1588767.jpg"
   },
   {
+    "revision": "007e2d02063801e94a39b09cb5a41383",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/dessert-original.007e2d02.jpg"
+  },
+  {
     "revision": "8ae7bd23c663f8c334c4e59502192856",
     "url": "/PaulaSantos-bbk-module-ii/static/media/dessert.8ae7bd23.jpg"
+  },
+  {
+    "revision": "7017f8915682750c3b7e99f4e05d2e19",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/home-original.7017f891.jpg"
   },
   {
     "revision": "505824392878e5834ee4fe80513f98ca",
     "url": "/PaulaSantos-bbk-module-ii/static/media/home.50582439.jpg"
   },
   {
+    "revision": "2e104460b954eb6b9174becefdc17f22",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/kitchen-vector-original.2e104460.jpg"
+  },
+  {
+    "revision": "72a8f02c856a7a39ea2eb5a8a036fbda",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/kitchen-vector.72a8f02c.png"
+  },
+  {
     "revision": "b3247f5111d1ed859d831706d4b5f30f",
     "url": "/PaulaSantos-bbk-module-ii/static/media/main-home.b3247f51.jpg"
+  },
+  {
+    "revision": "91a0eeeee6a82540beff3252155a5326",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/main-original.91a0eeee.jpg"
   },
   {
     "revision": "86f6edff4bacc936690c4d324a885546",
@@ -48,12 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/media/pie-home.c19f756a.jpg"
   },
   {
+    "revision": "2666320faa48a9c476ccaf6d2e3913e1",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/pie-original.2666320f.jpg"
+  },
+  {
     "revision": "5a78ca9dc7ea93f8ab90346a970f26a1",
     "url": "/PaulaSantos-bbk-module-ii/static/media/pie.5a78ca9d.jpg"
   },
   {
     "revision": "6f4f91c67e48fcfe3d697972b1f17a80",
     "url": "/PaulaSantos-bbk-module-ii/static/media/starter-home.6f4f91c6.jpg"
+  },
+  {
+    "revision": "8961a967c2b23698dd56a336d33f576a",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/starter-original.8961a967.jpg"
   },
   {
     "revision": "21fc9d9a4f81a1d0a528420044734470",
