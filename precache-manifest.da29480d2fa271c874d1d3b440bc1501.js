@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "979a869b31cd1d34212dff1cd0fa082c",
+    "revision": "a6b87463c3f85c74c9b2f6550c4c876b",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
-    "revision": "1e6f2d7367c5425913db",
+    "revision": "4cc042fe2397f42710be",
     "url": "/PaulaSantos-bbk-module-ii/static/css/main.36628bf1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/js/2.4af564f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e6f2d7367c5425913db",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/main.07658ad2.chunk.js"
+    "revision": "4cc042fe2397f42710be",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/main.79e4ac25.chunk.js"
   },
   {
     "revision": "28aa5b03c279c8a3722f",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-home.238dc952.jpg"
   },
   {
-    "revision": "5ed44d84c964883b818357007f8b5de0",
-    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-original.5ed44d84.jpg"
+    "revision": "a3c45ce81cf807644fbe95bcd7c0ae4d",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-original.a3c45ce8.jpg"
+  },
+  {
+    "revision": "f0d8c7347aa34c284f9934c86bed8d59",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-visual.f0d8c734.jpg"
+  },
+  {
+    "revision": "5464b1250dbfa7118574040a814df008",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream.5464b125.gif"
   },
   {
     "revision": "2e104460b954eb6b9174becefdc17f22",
