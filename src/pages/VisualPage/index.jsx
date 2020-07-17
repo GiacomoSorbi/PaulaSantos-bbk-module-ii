@@ -49,12 +49,15 @@ const VisualPage = () => (
         alt="Walnut and chocolate cake"
       />
       <p>[description]</p>
-      <h2>Image 5 - Pie</h2>
+      <h2 id="icecream">Image 5 - Icecream</h2>
       <h3>Original</h3>
-      <img src={require("../assets/pie-original.jpg")} alt="Tuna pie" />
+      <img
+        src={require("../assets/icecream-original.jpg")}
+        alt="Mango ice cream"
+      />
       <p>[description]</p>
       <h3>Edited version</h3>
-      <img src={require("../assets/pie.jpg")} alt="Tuna pie" />
+      <img src={require("../assets/icecream-home.jpg")} alt="Mango ice cream" />
       <p>[description]</p>
       <h2>Image 6 - Kitchen vector illustration (used as site's favicon)</h2>
       <h3>Original</h3>
