@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "127c91a0fe2e6ecb24cc54fa8cb6c636",
+    "revision": "456f8e4de76c412ff43058f14aa5a5f2",
     "url": "/PaulaSantos-bbk-module-ii/index.html"
   },
   {
-    "revision": "5d94ced37efa54d6ae65",
-    "url": "/PaulaSantos-bbk-module-ii/static/css/main.c700f4e4.chunk.css"
+    "revision": "abf06bf0eaab3b55704c",
+    "url": "/PaulaSantos-bbk-module-ii/static/css/main.4cd7b66c.chunk.css"
   },
   {
     "revision": "a8e0463d6cb4fc382ebf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/js/2.4af564f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d94ced37efa54d6ae65",
-    "url": "/PaulaSantos-bbk-module-ii/static/js/main.281cf2fc.chunk.js"
+    "revision": "abf06bf0eaab3b55704c",
+    "url": "/PaulaSantos-bbk-module-ii/static/js/main.0545b0d1.chunk.js"
   },
   {
     "revision": "28aa5b03c279c8a3722f",
@@ -44,6 +44,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PaulaSantos-bbk-module-ii/static/media/home.50582439.jpg"
   },
   {
+    "revision": "238dc95299fcc8b7bf7ce0382e007b39",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-home.238dc952.jpg"
+  },
+  {
+    "revision": "5ed44d84c964883b818357007f8b5de0",
+    "url": "/PaulaSantos-bbk-module-ii/static/media/icecream-original.5ed44d84.jpg"
+  },
+  {
     "revision": "2e104460b954eb6b9174becefdc17f22",
     "url": "/PaulaSantos-bbk-module-ii/static/media/kitchen-vector-original.2e104460.jpg"
   },
@@ -62,14 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86f6edff4bacc936690c4d324a885546",
     "url": "/PaulaSantos-bbk-module-ii/static/media/main.86f6edff.jpg"
-  },
-  {
-    "revision": "c19f756a602438975711a09ba44cff45",
-    "url": "/PaulaSantos-bbk-module-ii/static/media/pie-home.c19f756a.jpg"
-  },
-  {
-    "revision": "2666320faa48a9c476ccaf6d2e3913e1",
-    "url": "/PaulaSantos-bbk-module-ii/static/media/pie-original.2666320f.jpg"
   },
   {
     "revision": "5a78ca9dc7ea93f8ab90346a970f26a1",
