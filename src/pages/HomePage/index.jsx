@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../Styles.css";
 
 const HomePage = () => (
@@ -9,23 +10,23 @@ const HomePage = () => (
 
     <div className="container-1">
       <h2>
-        <a href="/starter">Olivier salad</a>
+        <NavLink to="/starter">Olivier salad</NavLink>
       </h2>
     </div>
 
     <div className="container-2">
       <h2>
-        <a href="/main">Meatballs in tomato sauce</a>
+        <NavLink to="/main">Meatballs in tomato sauce</NavLink>
       </h2>
     </div>
     <div className="container-3">
       <h2>
-        <a href="/dessert">Walnut and chocolate cake</a>
+        <NavLink to="/dessert">Walnut and chocolate cake</NavLink>
       </h2>
     </div>
     <div className="container-4">
       <h2>
-        <a href="/pies">Tuna pie</a>
+        <NavLink to="/pies">Tune pie</NavLink>
       </h2>
     </div>
   </div>
