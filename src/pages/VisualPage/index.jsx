@@ -6,35 +6,6 @@ const VisualPage = () => (
   <div className="container">
     <div className="content">
       <h1 className="title">Visual design</h1>
-      <h2>Animated GIF - Ice cream</h2>
-      <p>
-        The GIF below was produced by importing an MP4 into Photoshop and
-        converting video frames to layers. A frame animation was created in the
-        Timeline, and of the 200+ layers only 30 were selected. Of those 30 the
-        last 15 were reversed to make the GIF less repetitive and more dynamic.
-        The GIF was exported for the web and optimised so that it didn't lose
-        quality when published.
-      </p>
-      <p>The GIF can be used in a social media campaign as follows:</p>
-      <ul>
-        <li>Channel: Twitter</li>
-        <li>
-          Message: Make ice cream and other delicious home-made recipies for a
-          meal with friends. More details at{" "}
-          <span role="img" aria-label="Pointing down">
-            👇
-          </span>
-          <br />
-          <NavLink to="/" exact>
-            github.com
-          </NavLink>
-        </li>
-      </ul>
-      <img
-        style={{ width: "auto", height: "400px" }}
-        src={require("../assets/icecream.gif")}
-        alt="Ice cream GIF"
-      />
 
       <h2>Image 1 - Homepage hero</h2>
       <h3>Original</h3>
@@ -137,7 +108,7 @@ const VisualPage = () => (
         alt="Mango ice cream"
       />
 
-      <h2>Image 6 - Kitchen vector illustration (used as site's favicon)</h2>
+      <h2>Image 6 - Kitchen vector illustration</h2>
       <h3>Original</h3>
       <img
         style={{ width: "60%", height: "auto" }}
@@ -157,6 +128,36 @@ const VisualPage = () => (
         style={{ width: "60%", height: "auto" }}
         src={require("../assets/kitchen-vector.png")}
         alt="Kitchen vector illustration"
+      />
+
+      <h2>Animated GIF - Ice cream</h2>
+      <p>
+        The GIF below was produced by importing an MP4 into Photoshop and
+        converting video frames to layers. A frame animation was created in the
+        Timeline, and of the 200+ layers only 30 were selected. Of those 30 the
+        last 15 were reversed to make the GIF less repetitive and more dynamic.
+        The GIF was exported for the web and optimised so that it didn't lose
+        quality when published.
+      </p>
+      <p>The GIF can be used in a social media campaign as follows:</p>
+      <ul>
+        <li>Channel: Twitter</li>
+        <li>
+          Message: Make ice cream and other delicious home-made recipies for a
+          meal with friends. More details at{" "}
+          <span role="img" aria-label="Pointing down">
+            👇
+          </span>
+          <br />
+          <NavLink to="/" exact>
+            github.com
+          </NavLink>
+        </li>
+      </ul>
+      <img
+        style={{ width: "auto", height: "400px" }}
+        src={require("../assets/icecream.gif")}
+        alt="Ice cream GIF"
       />
     </div>
   </div>
