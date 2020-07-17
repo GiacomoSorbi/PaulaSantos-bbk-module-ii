@@ -6,6 +6,11 @@ const VisualPage = () => (
     <div className="content">
       <h1 className="title">Visual design</h1>
       <h2>Animated GIF - Ice cream</h2>
+      <img
+        style={{ width: "auto", height: "400px" }}
+        src={require("../assets/icecream.gif")}
+        alt="Ice cream GIF"
+      />
       <p>[description]</p>
       <h2>Image 1 - Homepage hero</h2>
       <h3>Original</h3>
@@ -59,17 +64,22 @@ const VisualPage = () => (
       />
       <p>[description]</p>
       <h3>Edited version</h3>
-      <img src={require("../assets/icecream-home.jpg")} alt="Mango ice cream" />
+      <img
+        src={require("../assets/icecream-visual.jpg")}
+        alt="Mango ice cream"
+      />
       <p>[description]</p>
       <h2>Image 6 - Kitchen vector illustration (used as site's favicon)</h2>
       <h3>Original</h3>
       <img
+        style={{ width: "60%", height: "auto" }}
         src={require("../assets/kitchen-vector-original.jpg")}
         alt="Kitchen vector illustration"
       />
       <p>[description]</p>
       <h3>Edited version</h3>
       <img
+        style={{ width: "60%", height: "auto" }}
         src={require("../assets/kitchen-vector.png")}
         alt="Kitchen vector illustration"
       />
