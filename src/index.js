@@ -5,12 +5,14 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components";
+import { Footer } from "./components";
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
       <NavBar />
       <App />
+      <Footer />
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById("root")

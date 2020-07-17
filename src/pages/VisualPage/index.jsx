@@ -5,6 +5,8 @@ const VisualPage = () => (
   <div className="container">
     <div className="content">
       <h1 className="title">Visual design</h1>
+      <h2>Animated GIF - Ice cream</h2>
+      <p>[description]</p>
       <h2>Image 1 - Homepage hero</h2>
       <h3>Original</h3>
       <img src={require("../assets/home-original.jpg")} alt="Homemade bread" />
@@ -49,7 +51,7 @@ const VisualPage = () => (
         alt="Walnut and chocolate cake"
       />
       <p>[description]</p>
-      <h2 id="icecream">Image 5 - Icecream</h2>
+      <h2>Image 5 - Ice cream</h2>
       <h3>Original</h3>
       <img
         src={require("../assets/icecream-original.jpg")}
@@ -71,8 +73,6 @@ const VisualPage = () => (
         src={require("../assets/kitchen-vector.png")}
         alt="Kitchen vector illustration"
       />
-      <p>[description]</p>
-      <h2>Animated GIF</h2>
       <p>[description]</p>
     </div>
   </div>

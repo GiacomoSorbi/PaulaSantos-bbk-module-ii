@@ -26,7 +26,7 @@ const HomePage = () => (
     </div>
     <div className="container-4">
       <h2>
-        <NavLink to="/visual#icecream">Mango ice cream</NavLink>
+        <NavLink to="/visual">Mango ice cream</NavLink>
       </h2>
     </div>
   </div>
