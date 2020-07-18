@@ -14,9 +14,9 @@ function ShoppingList() {
     { item: "a handful of olives and cherry tomatoes", id: 8 },
   ]);
 
-  let onClick = () => {
+  let onClick = (event) => {
     return {
-      textDecoration: onClick ? "line-through" : "none",
+      textDecoration: event.target.checked ? "line-through" : "none",
     };
   };
 
