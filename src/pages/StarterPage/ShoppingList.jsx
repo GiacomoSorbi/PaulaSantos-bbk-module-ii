@@ -4,19 +4,19 @@ import "../Styles.css";
 function ShoppingList() {
   const [lists] = useState([
     //an array of objects here
-    { item: "4 baking potatoes", id: 1 },
-    { item: "3 carrots", id: 2 },
-    { item: "200g fine beans", id: 3 },
-    { item: "2 cans of tuna", id: 4 },
-    { item: "extra virgin olive oil", id: 5 },
-    { item: "400g mayonnaise", id: 6 },
-    { item: "6 boiled eggs", id: 7 },
-    { item: "a handful of olives and cherry tomatoes", id: 8 },
+    { id: 1, item: "4 baking potatoes" },
+    { id: 2, item: "3 carrots" },
+    { id: 3, item: "200g fine beans" },
+    { id: 4, item: "2 cans of tuna" },
+    { id: 5, item: "extra virgin olive oil" },
+    { id: 6, item: "400g mayonnaise" },
+    { id: 7, item: "6 boiled eggs" },
+    { id: 8, item: "a handful of olives and cherry tomatoes" },
   ]);
 
-  let onClick = (event) => {
+  let onChange = (event) => {
     return {
-      textDecoration: event.target.checked ? "line-through" : "none",
+      textDecoration: event.target.ckecked ? "line-through" : "none",
     };
   };
 
@@ -32,7 +32,7 @@ function ShoppingList() {
             //we return the props above
             <div key={list.id}>
               <p>
-                <input onClick={onClick} type="checkbox" />
+                <input onChange={onChange} type="checkbox" />
                 {list.item}
               </p>
             </div>
