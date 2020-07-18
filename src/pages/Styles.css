@@ -159,6 +159,20 @@
   margin: 0 0.75em 0 0;
 }
 
+/*.del {
+  color: #000;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+
+.strickethrough {
+  text-decoration: line-through;
+}
+*/
+
 .method {
   grid-column: 3 / 4;
   grid-row: 3;
