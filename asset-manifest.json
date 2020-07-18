@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PaulaSantos-bbk-module-ii/static/css/main.bf0dceab.chunk.css",
-    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.168a8680.chunk.js",
-    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.168a8680.chunk.js.map",
+    "main.js": "/PaulaSantos-bbk-module-ii/static/js/main.b3beec4d.chunk.js",
+    "main.js.map": "/PaulaSantos-bbk-module-ii/static/js/main.b3beec4d.chunk.js.map",
     "runtime-main.js": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js",
     "runtime-main.js.map": "/PaulaSantos-bbk-module-ii/static/js/runtime-main.137bf9fb.js.map",
-    "static/js/2.39635d43.chunk.js": "/PaulaSantos-bbk-module-ii/static/js/2.39635d43.chunk.js",
-    "static/js/2.39635d43.chunk.js.map": "/PaulaSantos-bbk-module-ii/static/js/2.39635d43.chunk.js.map",
+    "static/js/2.d66d0dff.chunk.js": "/PaulaSantos-bbk-module-ii/static/js/2.d66d0dff.chunk.js",
+    "static/js/2.d66d0dff.chunk.js.map": "/PaulaSantos-bbk-module-ii/static/js/2.d66d0dff.chunk.js.map",
     "index.html": "/PaulaSantos-bbk-module-ii/index.html",
-    "precache-manifest.695f0cf127e9a9a01aeeef741ffdd9ab.js": "/PaulaSantos-bbk-module-ii/precache-manifest.695f0cf127e9a9a01aeeef741ffdd9ab.js",
+    "precache-manifest.4e202c56fe80da35497e2558a08e9056.js": "/PaulaSantos-bbk-module-ii/precache-manifest.4e202c56fe80da35497e2558a08e9056.js",
     "service-worker.js": "/PaulaSantos-bbk-module-ii/service-worker.js",
     "static/css/main.bf0dceab.chunk.css.map": "/PaulaSantos-bbk-module-ii/static/css/main.bf0dceab.chunk.css.map",
-    "static/js/2.39635d43.chunk.js.LICENSE.txt": "/PaulaSantos-bbk-module-ii/static/js/2.39635d43.chunk.js.LICENSE.txt",
+    "static/js/2.d66d0dff.chunk.js.LICENSE.txt": "/PaulaSantos-bbk-module-ii/static/js/2.d66d0dff.chunk.js.LICENSE.txt",
     "static/media/Styles.css": "/PaulaSantos-bbk-module-ii/static/media/starter-home.6f4f91c6.jpg",
     "static/media/dessert-original.jpg": "/PaulaSantos-bbk-module-ii/static/media/dessert-original.007e2d02.jpg",
     "static/media/dessert.jpg": "/PaulaSantos-bbk-module-ii/static/media/dessert.8ae7bd23.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.137bf9fb.js",
-    "static/js/2.39635d43.chunk.js",
+    "static/js/2.d66d0dff.chunk.js",
     "static/css/main.bf0dceab.chunk.css",
-    "static/js/main.168a8680.chunk.js"
+    "static/js/main.b3beec4d.chunk.js"
   ]
 }
