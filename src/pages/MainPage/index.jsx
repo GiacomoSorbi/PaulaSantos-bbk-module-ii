@@ -9,7 +9,7 @@ const MainPage = () => (
     <div className="ingredients">
       <h2>Ingredients</h2>
       <div className="ingredients-list">
-        <p>(8 people)</p>
+        <p>(serves 8)</p>
         <p>
           500g mince beef
           <br />
