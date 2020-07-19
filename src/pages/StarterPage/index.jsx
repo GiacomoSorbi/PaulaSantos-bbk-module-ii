@@ -1,28 +1,7 @@
-//import React, { useState } from "react";
 import React from "react";
 import "../Styles.css";
 
 const StarterPage = () => (
-  /*function StarterPage() {
-  const ingredientsList = [
-    { id: 1, item: "4 baking potatoes" },
-    { id: 2, item: "3 carrots" },
-    { id: 3, item: "200g fine beans" },
-    { id: 4, item: "2 cans of tuna" },
-    { id: 5, item: "extra virgin olive oil" },
-    { id: 6, item: "400g mayonnaise" },
-    { id: 7, item: "6 boiled eggs" },
-    { id: 8, item: "a handful of olives and cherry tomatoes" },
-  ];
-
-  let [markComplete, setMarkComplete] = useState();
-  let onClick = () => {
-    return {
-      textDecoration: setMarkComplete ? "line-through" : "none",
-    };
-  };
-
-  return (*/
   <div className="container">
     <div className="hero-starter">
       <h1>Olivier salad</h1>
@@ -74,8 +53,6 @@ const StarterPage = () => (
       </div>
     </div>
   </div>
-  //);
-  //}
 );
 
 export default StarterPage;
