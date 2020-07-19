@@ -195,7 +195,7 @@
 
 /* Form styles */
 
-.heading {
+/*.heading {
   grid-column: 2 / span 2;
   grid-row: 1;
   text-align: center;
@@ -268,6 +268,7 @@ button:active {
   text-decoration: underline;
   background: #000;
 }
+*/
 
 /* Visual design styles */
 
@@ -289,41 +290,6 @@ img {
 /* Responsive */
 
 @media screen and (max-width: 800px) {
-  /* .container {
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: auto auto auto;
-  }
-  */
-  /*.hero-home h1,
-  .hero-starter h1,
-  .hero-main h1,
-  .hero-dessert h1,
-  .hero-pies h1 {
-    grid-column: 2 / 4;
-    grid-row: 1;
-  }*/
-
-  /* .hero-home h1,
-  .hero-starter h1,
-  .hero-main h1,
-  .hero-dessert h1,
-  .hero-pies h1 {
-    font-size: 2vw;
-  }*/
-
-  /*.container-1 h2,
-  .container-2 h2,
-  .container-3 h2,
-  .container-4 h2 {
-    color: #ffffff;
-    text-align: left;
-    background-color: #000000;
-    opacity: 70%;
-    font-size: 1em;
-    padding: 0.1em;
-  }*/
-
   .container-1 {
     grid-column: 2 / 4;
     grid-row: 2;
@@ -375,3 +341,38 @@ img {
     margin: 0;
   }
 }
+
+/* .container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto;
+  }
+  */
+/*.hero-home h1,
+  .hero-starter h1,
+  .hero-main h1,
+  .hero-dessert h1,
+  .hero-pies h1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+  }*/
+
+/* .hero-home h1,
+  .hero-starter h1,
+  .hero-main h1,
+  .hero-dessert h1,
+  .hero-pies h1 {
+    font-size: 2vw;
+  }*/
+
+/*.container-1 h2,
+  .container-2 h2,
+  .container-3 h2,
+  .container-4 h2 {
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    opacity: 70%;
+    font-size: 1em;
+    padding: 0.1em;
+  }*/
